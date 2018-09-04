@@ -108,10 +108,10 @@ class TraceableDictionary implements Dictionary
      */
     private function trace()
     {
-        $this->collector->addDictionary(
-            $this->dictionary->getName(),
-            $this->dictionary->getKeys(),
-            array_values($this->dictionary->getValues())
-        );
+//        $this->collector->addDictionary(
+//            $this->dictionary->getName(),
+//            $this->dictionary->getKeys(),
+//            array_values($this->dictionary->getValues())
+//        );
     }
 }
